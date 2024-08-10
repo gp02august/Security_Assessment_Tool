@@ -1,0 +1,15 @@
+Security Assessment Report
+==========================
+Project Directory: C:\Users\gyane\AndroidStudioProjects\SHARAT_SAWHNEY
+
+File: C:\Users\gyane\AndroidStudioProjects\SHARAT_SAWHNEY\.dart_tool\dartpad\web_plugin_registrant.dart
+
+File: C:\Users\gyane\AndroidStudioProjects\SHARAT_SAWHNEY\bin\security_assessment.dart
+
+File: C:\Users\gyane\AndroidStudioProjects\SHARAT_SAWHNEY\lib\main.dart
+  [WARNING] Hardcoded secret found in variable "apiKey".
+  Suggested Fix: Move sensitive data like API keys or passwords to secure storage or environment variables.
+
+
+File: C:\Users\gyane\AndroidStudioProjects\SHARAT_SAWHNEY\test\widget_test.dart
+

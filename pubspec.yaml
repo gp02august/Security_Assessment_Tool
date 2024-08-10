@@ -1,0 +1,26 @@
+name: security_assessment_tool
+description: A new Flutter project with a built-in security assessment tool.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  path: ^1.8.0  # For handling file paths
+  analyzer: ^4.1.0  # For analyzing Dart code (AST)
+  http: ^0.13.3  # For making HTTP requests
+  crypto: ^3.0.1  # For cryptographic functions (e.g., MD5)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
